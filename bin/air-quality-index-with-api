@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/air_quality_index'
+
+AirQualityIndexWithApi::CLI.new.call

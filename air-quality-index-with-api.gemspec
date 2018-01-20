@@ -1,26 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "air/quality/index/api/version"
+require "air-quality-index-with-api/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "air-quality-index-with-api"
-  spec.version       = AirQualityIndexApi::VERSION
+  spec.version       = AirQualityIndexWithApi::VERSION
   spec.authors       = ["jamesonbass1987"]
   spec.email         = ["jamesonbass@gmail.com"]
 
   spec.summary       = %q{A gem that retrieves local air quality index information using the AirNow.gov API.}
   spec.homepage      = "github.com/jamesonbass1987/air-quality-index-with-api"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

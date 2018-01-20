@@ -1,4 +1,4 @@
-class AirQualityIndex::NationwideAQI
+class AirQualityIndexWithApi::NationwideAQI
 
   attr_accessor :todays_date, :national_aqi, :first_city, :second_city, :third_city, :fourth_city, :fifth_city, :html, :selected_city
 

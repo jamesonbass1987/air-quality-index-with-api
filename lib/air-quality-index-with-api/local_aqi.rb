@@ -1,4 +1,4 @@
-class AirQualityIndex::LocalAQI
+class AirQualityIndexWithApi::LocalAQI
 
   attr_accessor :zip_code, :doc, :city
 

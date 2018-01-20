@@ -1,4 +1,4 @@
-class AirQualityIndex::AQI_Information
+class AirQualityIndexWithApi::AQI_Information
 
   #prints general AQI information
   def call

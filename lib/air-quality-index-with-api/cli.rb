@@ -1,4 +1,4 @@
-class AirQualityIndex::CLI
+class AirQualityIndexWithApi::CLI
 
   #instantiates a new CLI instance for the program
   def call

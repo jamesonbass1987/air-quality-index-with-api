@@ -1,4 +1,4 @@
-class AirQualityIndex::Scraper
+class AirQualityIndexWithApi::APICall
 
   #scrape AQI webpage based on submitted zip code
   def local_aqi_scraper(zip_code)
