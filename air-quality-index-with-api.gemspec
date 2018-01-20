@@ -5,12 +5,12 @@ require "air/quality/index/api/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "air-quality-index-with-api"
-  spec.version       = Air::Quality::Index::Api::VERSION
+  spec.version       = AirQualityIndexApi::VERSION
   spec.authors       = ["jamesonbass1987"]
   spec.email         = ["jamesonbass@gmail.com"]
 
   spec.summary       = %q{A gem that retrieves local air quality index information using the AirNow.gov API.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "github.com/jamesonbass1987/air-quality-index-with-api"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
